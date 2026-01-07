@@ -1,7 +1,7 @@
 $excelPath  = "C:\Path\To\Your\File.xlsx"
 $outputPath = "C:\Path\To\output.txt"
 
-$columnMap = @{
+$columnMap = [ordered]@{
     "MaleCommander.ID"        = "DialogueID"
     "MaleCommander.Dialogue"  = "Line"
     "MaleCommander.Emotion"   = "Mood"
